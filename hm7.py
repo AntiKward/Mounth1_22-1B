@@ -75,3 +75,10 @@ def count_mark(grades, target_score):
         print(f"Нет учеников с оценкой {target_score}")
 
 count_mark(grades, target_score = int(input("Введите число: ")))
+
+def marker(one):
+  for one in range(1,50):
+    print(one)
+    
+marker(one = int(input('Введите число')))
+
